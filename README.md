@@ -11,3 +11,15 @@ echo "##3 run project"
 rm nohup.out
 nohup java -jar $JAR_FILE &
 tail -f ./nohup.out
+https://github.com/smzerehpoush/spring-boot_prometheus_grafana/blob/master/spring-boot-v2/src/main/resources/application.yml
+<dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-core</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-registry-prometheus -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+            <version>1.4.1</version>
+        </dependency>
