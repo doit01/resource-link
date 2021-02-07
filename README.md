@@ -23,3 +23,13 @@ https://github.com/smzerehpoush/spring-boot_prometheus_grafana/blob/master/sprin
             <artifactId>micrometer-registry-prometheus</artifactId>
             <version>1.4.1</version>
         </dependency>
+
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'spring_micrometer'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['192.168.1.101:8088']
