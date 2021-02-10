@@ -1,3 +1,5 @@
+elasticsearch  https://blog.csdn.net/xiaoxiaole0313/article/details/105631065
+
 https://github.com/spring-petclinic/spring-petclinic-microservices
 https://github.com/doit01/demo-gitlab-cicd/blob/master/.gitlab-ci.yml  
 echo "##1 : kill old application if exists"
