@@ -1,4 +1,5 @@
 elasticsearch  https://blog.csdn.net/xiaoxiaole0313/article/details/105631065
+https://github.com/macrozheng/mall/blob/14f0a625bfa421dbf9d5e7f357c9dc0c6ac03f86/mall-search/src/main/java/com/macro/mall/search/domain/EsProduct.java#L21
 
 https://github.com/spring-petclinic/spring-petclinic-microservices
 https://github.com/doit01/demo-gitlab-cicd/blob/master/.gitlab-ci.yml  
